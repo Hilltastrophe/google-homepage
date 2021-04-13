@@ -7,9 +7,12 @@
     </head>
 
     <style>
-        body,html {
+        .content {
             font-family: Arial, Helvetica, sans-serif;
-            min-width: 400px;
+            display: block; 
+            width: 500px;
+            margin: 0 auto;
+            padding: 10px;
         }  
         .Header {
             margin-left: 25px;
@@ -23,18 +26,18 @@
         }
         img {
             margin-top: 200px;
-            margin-left: 800px;
+            margin-left: 150px;
         }
         input {
             width: 550px;
             line-height: 45px;
-            margin: 45px 0 0 650px;
+          /*  margin: 45px 0 0 650px;*/
         }
         button {
             height: 30px;            
         }
         .btnSearch {
-            margin-left: 780px;
+            margin-left: 125px;
             opacity: 60%;
             color: black;
         }
@@ -53,25 +56,23 @@
             border: none;
         }
         .Gmail {
-            margin-left: 1450px;
+            margin-left: 10px;
         }
       
     </style>
     
     <body>
-        <div>
+        <div class="content">
             <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" class="Header">About</a>
             <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" class="Header">Store</a>
             <a href="https://www.google.com/gmail/about/" class="Gmail Header">Gmail</a>
             <a href="https://www.google.com/imghp?hl=en&ogbl" class="Images Header">Images</a>
             <button class="btnApps Header">Apps</button>
             <button class="btnSignIn Header">Sign In</button>
-        </div>
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <div>
-             <input type="search"> <br><br>
-             <button class="btnSearch">Google Search</button>
-             <button class="btnLucky">I'm Feeling Lucky</button>
+            <input type="search"> <br><br>
+            <button class="btnSearch">Google Search</button>
+            <button class="btnLucky">I'm Feeling Lucky</button>
         </div>
     
     </body>
