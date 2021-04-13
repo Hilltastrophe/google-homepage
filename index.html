@@ -7,8 +7,9 @@
     </head>
 
     <style>
-        body {
+        body,html {
             font-family: Arial, Helvetica, sans-serif;
+            min-width: 400px;
         }  
         .Header {
             margin-left: 25px;
@@ -22,22 +23,37 @@
         }
         img {
             margin-top: 200px;
-            margin-left: 650px;
+            margin-left: 800px;
         }
-       input {
-           width: 550px;
-           line-height: 45px;
-           margin: 45px 0 0 500px;
+        input {
+            width: 550px;
+            line-height: 45px;
+            margin: 45px 0 0 650px;
         }
         button {
-            opacity: 60%;
-            height: 30px;
+            height: 30px;            
         }
         .btnSearch {
-            margin-left: 630px;
+            margin-left: 780px;
+            opacity: 60%;
+            color: black;
         }
         .btnLucky {
             margin-left: 50px;
+            opacity: 60%;
+            color: black;
+        }
+        .btnSignIn {
+            background-color: #1a73e8;
+            border-width: 0px;
+            color: cornsilk;
+        }
+        .btnApps {
+            background: none;
+            border: none;
+        }
+        .Gmail {
+            margin-left: 1450px;
         }
       
     </style>
@@ -46,6 +62,10 @@
         <div>
             <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" class="Header">About</a>
             <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" class="Header">Store</a>
+            <a href="https://www.google.com/gmail/about/" class="Gmail Header">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&ogbl" class="Images Header">Images</a>
+            <button class="btnApps Header">Apps</button>
+            <button class="btnSignIn Header">Sign In</button>
         </div>
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         <div>
