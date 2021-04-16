@@ -18,9 +18,9 @@
         .Header {
             text-decoration: none;
             margin-right: 10px;
-            margin-top: 9px;
+            margin-top: 5px;
         }
-        a:hover{
+        a:hover {
             text-decoration: underline;
         }
         .About {
@@ -29,46 +29,89 @@
         .Gmail {
             margin-left: 1500px;
         }
+        .Apps {
+            border: none;
+            width: 15px;
+            height: 15px;
+            margin-left: 10px;
+            margin-bottom: 0px;
+            padding-top: 9px;
+            opacity: 60%;
+        }
+        .SignIn {
+            background-color: #2b7de9;
+            border: none;
+            height: 35px;
+            width: 90px;
+            border-radius: 7%;
+            color: white;
+            font-size: 15px;
+            margin-left: 10px;
+        }
+        .Header .footer:hover {
+            cursor: pointer;
+        }
+        .SignIn:hover {
+            cursor: pointer;
+        }
+        .Lucky:hover {
+            cursor: pointer;
+        }
+        .Search:hover {
+            cursor: pointer;
+        }
         img {
             margin-left: 810px;
             margin-top: 200px;
             margin-bottom: 25px;
         }
         .searchbar {
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/Google_Magnifying_Glass.svg");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 20px;
+            background-position-x: 15px;
+            opacity: 40%;
             margin-left: 660px;
-            background:#fff;
-            border:1px solid #dfe1e5;
+            border:1px solid rgba(10, 10, 10, .40) ;
             box-shadow:none;
             border-radius:24px;
             z-index:3;
             height:44px;
             width:582px;
         }
+        .searchbar:hover {
+            /* Start Here */
+        }
         .Search {
             font-size: 14px;
             border: none;
-            height: 30px;
-            background-color: rgba(119, 127, 136, 0.107);
+            height: 35px;
+            width: 125px;
+            background-color: rgba(119, 127, 136, 0.05);
             margin-top: 25px;
             margin-left: 810px;
-
         }
         .Lucky {
             font-size: 14px;
             border: none;
-            height: 30px;
-            background-color: rgba(119, 127, 136, 0.107);
+            height: 35px;
+            width: 150px;
+            background-color: rgba(119, 127, 136, 0.05);
             margin-top: 25px;
-            margin-left: 30px;
+            margin-left: 10px;
         }
         .footer {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 14px;
             text-decoration: none;
             background-color: rgba(119, 127, 136, 0.107);
-            height: 70px;
-            margin-top: 320px;
+            height: 35px;
+            margin-top: 332px;
             margin-bottom: 0px;
+            border-top-style: solid;
+            border-top-width: 0px;
+            padding-top: 20px;
         }
         .Ads {
             margin-left: 35px;
@@ -85,13 +128,27 @@
             color: gray;
             background-color: rgba(119, 127, 136, 0);
         }
-        /*start here*/
         .Privacy {
-            margin-left: 1200px;
+            margin-left: 1340px;
             color: gray;
             background-color: rgba(119, 127, 136, 0);
         }
-
+        .Terms {
+            margin-left: 30px;
+            color: gray;
+            background-color: rgba(119, 127, 136, 0);
+        }
+        .Settings {
+            margin-left: 30px;
+            color: gray;
+            background-color: rgba(119, 127, 136, 0);
+        }
+        .Dots {
+            margin-top: 0px;
+            padding-top: 0px;
+            border: none;
+            background-color: rgba(119, 127, 136, 0);;
+        }
 
     </style>
     
@@ -101,14 +158,14 @@
             <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" class="Store Header">Store</a>
             <a href="https://www.google.com/gmail/about/" class="Gmail Header">Gmail</a>
             <a href="https://www.google.com/imghp?hl=en&ogbl" class="Images Header">Images</a>
-            <button class="Apps Header">Apps</button>
+            <button class="Dots"><img src="https://cdn.icon-icons.com/icons2/1129/PNG/512/buttonsymbolofninedots_80014.png" class="Apps Header"></button>
             <button class="SignIn Header">Sign In</button>
         </nav>
         <div>    
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
         <div>
-            <input type="search" class="searchbar">
+            <input type="search" class="searchbar" title="Search">
         </div>    
             <button class="btn Search">Google Search</button>
             <button class="btn Lucky">I'm Feeling Lucky</button>
